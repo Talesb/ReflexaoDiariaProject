@@ -1,0 +1,51 @@
+<web-app 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    id="Your_WebApp_ID"
+    version="2.5">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<servlet-class>br.com.controler.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Pagination</display-name>
+  	<servlet-name>Pagination</servlet-name>
+  	<servlet-class>br.com.controler.Pagination</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Cadastro</display-name>
+  	<servlet-name>Cadastro</servlet-name>
+  	<servlet-class>br.com.controler.Cadastro</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Lol2</display-name>
+  	<servlet-name>Lol2</servlet-name>
+  	<servlet-class>br.com.controler.Lol2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Pagination</servlet-name>
+  	<url-pattern>/Pagination</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Cadastro</servlet-name>
+  	<url-pattern>/Cadastro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Lol2</servlet-name>
+  	<url-pattern>/Lol2</url-pattern>
+  </servlet-mapping>
+</web-app>
